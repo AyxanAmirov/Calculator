@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    color: #fff;
+}
 ul li{
     list-style: none;
 }
