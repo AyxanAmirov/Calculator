@@ -1,9 +1,10 @@
-.calculator-body{
+.calculator-body {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.calculator{
+
+.calculator {
     max-width: 380px;
     margin-top: 70px;
     background-color: black;
@@ -20,12 +21,13 @@
     white-space: nowrap;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.calc-item{
+
+.calc-item {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -36,7 +38,8 @@
     color: black;
     cursor: pointer;
 }
-.calc-item-2{
+
+.calc-item-2 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -47,7 +50,8 @@
     color: black;
     cursor: pointer;
 }
-.calc-item-3{
+
+.calc-item-3 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -58,10 +62,12 @@
     color: black;
     cursor: pointer;
 }
-.span-3{
+
+.span-3 {
     grid-column: 1 / span 3;
 }
-.calc-zero{
+
+.calc-zero {
     width: 100%;
     height: 60px;
     border-radius: 20px;
