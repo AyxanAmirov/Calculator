@@ -10,11 +10,16 @@
     width: 100%;
     border-radius: 20px;
     padding: 40px 20px;
+    overflow: hidden;
 }
-.value{
+
+.value {
     font-size: 50px;
     text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -31,8 +36,30 @@
     color: black;
     cursor: pointer;
 }
-.span-2{
-    grid-column: 1 / span 2;
+.calc-item-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}
+.calc-item-3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    cursor: pointer;
+}
+.span-3{
+    grid-column: 1 / span 3;
 }
 .calc-zero{
     width: 100%;
